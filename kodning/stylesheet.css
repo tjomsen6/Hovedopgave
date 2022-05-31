@@ -1,0 +1,151 @@
+body{
+    max-width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    background-color: #434343;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+h2{
+   font-size: xx-large;
+   
+}
+
+h3{
+color: white;
+font-size: xx-large;
+
+
+}
+
+p{
+    font-size: larger;
+}
+.logo{
+    max-width: 130px; ;
+    grid-column: 2/3;
+    margin-top: 1em ;
+}
+
+header{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.rating{
+    text-align: center;
+    margin-top: 50%;
+}
+
+footer{
+    margin-top: 30%;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    }
+
+.page{
+    color: white;
+    font-size: xx-large;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    align-items: center;
+
+}
+
+.link{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 0; 
+}
+
+.link_btn{
+    color: white;
+    font-size: x-large;
+    border-radius: 31px;
+    border: solid 1px white;
+    padding: 15px 52px;
+    grid-column: 1/5;    
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a::after{
+    color: white;
+}
+
+.review_trip{
+    max-width: 80%;
+}
+
+.features{
+    background-color: #E5C59A;
+    text-align: center;
+    height: 25vh ;
+    padding-top: 0.2em;
+    margin-top: 1em;
+
+}
+
+.survey{
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.yes{
+    color: white;
+    background-color: #7FDD5C;
+    font-size: x-large;
+    border-radius: 31px;
+    padding: 15px 34px;
+}
+
+.no{
+    color: white;
+    background-color: #C95252;
+    font-size: x-large;
+    border-radius: 31px;
+    padding: 15px 34px;
+}
+
+.btn{
+    color: white;
+    background-color: #4E4949;
+    font-size: x-large;
+    border-radius: 31px;
+    padding: 15px 40px;
+    margin-bottom: 2%;
+   
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
